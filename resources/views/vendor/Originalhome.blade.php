@@ -1,34 +1,10 @@
 @extends('app')
 
 @section('title')
-		{{$title}}
+{{$title}}
 @endsection
 
-
-@section('Header')
-
-		@include('frontend.header')
-@stop
-
-
-@section('Intro')
-
-		@include('frontend.intro')
-@stop
-
-@section('Main')
-
-		@include('frontend.main')
-@stop
-@section('Highlights')
-
-		@include('frontend.highlights')
-@stop
-@section('Footer')
-
-		@include('frontend.footer')
-@stop
-<!--@section('content')
+@section('content')
 
 @if ( !$posts->count() )
 There is no post till now. Login and write a new post now!!!
@@ -60,4 +36,4 @@ There is no post till now. Login and write a new post now!!!
 </div>
 @endif
 
-@endsection-->
+@endsection
